@@ -15,8 +15,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.hamza1999.cv.model.DemoItem;
 import com.hamza1999.cv.base.R;
+import com.hamza1999.cv.model.DemoItem;
 import com.squareup.picasso.Picasso;
 import java.util.List;
 import static android.content.Context.CLIPBOARD_SERVICE;

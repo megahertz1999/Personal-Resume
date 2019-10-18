@@ -5,11 +5,12 @@ import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+
+import com.hamza1999.cv.base.R;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.rhexgomez.typer.roboto.TyperRoboto;
 import com.hamza1999.cv.adapters.ViewPagerAdapter;
-import com.hamza1999.cv.base.R;
 import com.hamza1999.cv.fragments.AboutFragment;
 import com.hamza1999.cv.fragments.EducationFragment;
 import com.hamza1999.cv.fragments.ProfessionFragment;
@@ -49,6 +50,8 @@ public class ScrollingActivity extends AppCompatActivity {
         mViewPager.setAdapter(mViewPagerAdapter);
         tabLayout.setupWithViewPager(mViewPager);
         setupTabIcons();
+
+        // ATTENTION: This was auto-generated to handle app links.
 
         // ATTENTION: This was auto-generated to handle app links.
         Intent appLinkIntent = getIntent();
